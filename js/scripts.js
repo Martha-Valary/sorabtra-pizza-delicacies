@@ -177,7 +177,7 @@ $(document).ready(function(){
       $("#addedprice").hide();
       $("button.deliver").hide();
       $("#pizzatotal").hide();
-      let deliceryamount= checkoutTotal+150;
+      let deliceryamount= checkoutTotal+200;
       console.log("You will pay sh. "+deliceryamount+" on delivery");
       $("#totalbill").append("Your bill plus delivery fee is: "+deliceryamount);
     });
@@ -187,7 +187,7 @@ $(document).ready(function(){
       $("#pizzatotal").hide();
       $(".delivery").hide();
       $("button#final-order").hide();
-      let deliceryamount= checkoutTotal+150;
+      let deliceryamount= checkoutTotal+200;
       console.log("Final Bill is: "+deliceryamount);
       let person = $("input#name").val();
       let phone = $("input#phone").val();
